@@ -4,7 +4,7 @@ import { Component, ElementRef, EventEmitter, HostListener, Input, NgModule, Out
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var StickyComponent = (function () {
+var StickyComponent = /** @class */ (function () {
     function StickyComponent(element) {
         this.element = element;
         this.zIndex = 10;
@@ -285,7 +285,7 @@ var StickyComponent = (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var StickyModule = (function () {
+var StickyModule = /** @class */ (function () {
     function StickyModule() {
     }
     StickyModule.decorators = [
@@ -294,8 +294,6 @@ var StickyModule = (function () {
                     exports: [StickyComponent]
                 },] },
     ];
-    /** @nocollapse */
-    StickyModule.ctorParameters = function () { return []; };
     return StickyModule;
 }());
 
